@@ -1,0 +1,22 @@
+database:
+  client: "mysql"
+  max_idle: 10
+  max_life_time: "1h"
+  max_open_conn: 100
+  user: "root"
+  password: "jtMpPWhEmK7AYZ"
+  host: "localhost"
+  name: "dishrank_nu2"
+  port: "3306"
+  params: "charset=utf8mb4&parseTime=True&loc=Local"
+
+cloudflare:
+  api_domain: {{ api_domain }}
+  api_key: {{ api_key }}
+  api_version: {{ api_version }}
+  account_id: {{ account_id }}
+  email: {{ email }}
+  key_id: {{ key_id }}
+  pem: {{ pem }}
+  stream_domain: {{ stream_domain }}
+  util_domain: {{ util_domain }}
